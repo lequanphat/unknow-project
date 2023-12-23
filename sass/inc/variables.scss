@@ -1,4 +1,20 @@
+:root {
+    --roboto: 'Roboto', sans-serif;
+    --default-background: #f9f9f9;
+    --paper-background: #eee;
+    --text: #342e37;
+    --success-color: #19e307;
+    --error-color: #b73a3a;
+    --warn-color: #d4d725;
+    --info-color: #2e6ce9;
+}
 
-$primary-color: '#fff';
-$second-color: '#333';
-$text-color: '#444'
+body.dark {
+    --default-background: #0c0c1e;
+    --paper-background: #060714;
+    --text: #cdc1c1;
+}
+body {
+    background: var(--default-background);
+    overflow-x: hidden;
+}

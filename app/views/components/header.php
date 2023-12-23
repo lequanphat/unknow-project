@@ -1,4 +1,4 @@
-
 <body>
-    <header><h1>Header</h1></header>
-
+    <header id="header">
+        <h1>Header</h1>
+    </header>

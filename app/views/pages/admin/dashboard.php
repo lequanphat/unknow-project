@@ -91,14 +91,7 @@
                         <td>01-10-2021</td>
                         <td><span class="status pending">Pending</span></td>
                     </tr>
-                    <tr>
-                        <td>
-                            <img src="./public/images/avatar.jpg">
-                            <p>John Doe</p>
-                        </td>
-                        <td>01-10-2021</td>
-                        <td><span class="status completed">Completed</span></td>
-                    </tr>
+
                 </tbody>
             </table>
         </div>

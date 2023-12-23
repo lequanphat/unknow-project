@@ -1,13 +1,16 @@
+@use './variables.scss';
 * {
-    font-family: 'Roboto';
-    font-size: 62.5%;
+    font-family: var(--roboto);
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
+html {
+    font-size: 62.5%;
+}
 button,
 button:focus {
     outline: none !important;
     box-shadow: none !important;
+    color: var(--text);
 }
