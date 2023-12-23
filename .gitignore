@@ -1,2 +1,4 @@
 /node_modules
 /.vscode
+/public/css/style.css
+/public/css/style.css.map
