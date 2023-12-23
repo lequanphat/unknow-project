@@ -1,14 +1,16 @@
 <?php
-class Home extends Controller{
-    public function __construct() {
+class Home extends Controller
+{
+    public function __construct()
+    {
         parent::__construct();
     }
-    function index(){
-        $this->view("layouts/main.layout" , ["title" => "Home - index"]);
+    function index()
+    {
+        $this->view("layouts/main.layout", ["title" => "Home - index"]);
     }
-    function temp(){
+    function temp()
+    {
         $this->view("layouts/main.layout", ["title" => "Home - temp"]);
     }
-
 }
-?>
